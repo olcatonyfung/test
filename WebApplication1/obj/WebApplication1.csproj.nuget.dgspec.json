@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devxjn\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\GitHub\\test\\test\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devxjn\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\GitHub\\test\\test\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devxjn\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\GitHub\\test\\test\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\devxjn\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "D:\\GitHub\\test\\test\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\devxjn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devxjn\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "D:\\GitHub\\test\\test\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\devxjn\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -25,21 +25,26 @@ namespace WebApplication1.Controllers
             var info = new Info();
             if (Request.Headers.TryGetValue("X-Forwarded-For", out StringValues forwardeds))
             {
-                info.ip = forwardeds.ToString().Split(',').Select(_ => _).ToList();
+                info.ip_raw = forwardeds.ToString().Split(',').Select(_ => _).First();
+            }
+            if (Request.Headers.TryGetValue("Cf-Pseudo-IPv4", out StringValues ipv4))
+            {
+                info.pseudo_IPv4 = forwardeds.ToString().Split(',').Select(_ => _).First();
             }
 
             if (Request.Headers.TryGetValue("CF-IPCountry", out StringValues country))
             {
                 info.country = country;
-
             }
+
             return info;
         }
     }
 
     public class Info
     {
-        public List<string> ip { get; set; } = new List<string>();
+        public string ip_raw { get; set; }
+        public string pseudo_IPv4 { get; set; }
         public string country { get; set; }
     }
 }
