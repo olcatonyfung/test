@@ -1,0 +1,10 @@
+services:
+  test:
+    container_name: test
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+    ports:
+      - 5100:5100
+    restart: always
+    network_mode: host
